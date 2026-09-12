@@ -6,7 +6,7 @@ import time
 import _thread
 import platform
 
-DEV_MODE = False  # Set to True to forcefully kill all cmd/python windows after 10 seconds
+DEV_MODE = True  # Set to True to forcefully kill all cmd/python windows after 10 seconds
 
 def dev_killer():
     time.sleep(10)
