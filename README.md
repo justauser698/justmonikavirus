@@ -8,3 +8,5 @@ So theres 2 files main.py and davirus.py
 main.py runs davirus.py pretty much
 and davirus.py is a loop that runs davirus and prints just monika
 so it makes a new terminal window that runs davirus.py ik that is kinda confusing
+
+for now i will not put a exe in 
