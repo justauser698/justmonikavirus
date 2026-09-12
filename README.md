@@ -1,5 +1,6 @@
 NOTE THIS IS KINDA DESTRUCTIVE
 It dosent overwrite mbr or smth llike that but loops a py file davirus.py
+Can crash ur pc
 
 IF u wanna run it on ur main pc without rebooting or signing out set DEV_MODE in davirus.py to True it force crashes the python file after 10s if u see it crashed or smth like that that means it did it job
 
