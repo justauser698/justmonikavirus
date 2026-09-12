@@ -15,7 +15,6 @@ script_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "davirus.
 if platform.system() == "Windows":
     subprocess.Popen([sys.executable, script_path], creationflags=subprocess.CREATE_NEW_CONSOLE)
 else:
-    # Linux/Mac - try common terminal emulators
     terminals = [
         ["gnome-terminal", "--", sys.executable, script_path],
         ["konsole", "-e", sys.executable, script_path],

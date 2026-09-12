@@ -24,7 +24,6 @@ if DEV_MODE:
 if platform.system() == "Windows":
     subprocess.Popen([sys.executable, os.path.abspath(__file__)], creationflags=subprocess.CREATE_NEW_CONSOLE)
 else:
-    # Linux/Mac - try common terminal emulators
     terminals = [
         ["gnome-terminal", "--", sys.executable, os.path.abspath(__file__)],
         ["konsole", "-e", sys.executable, os.path.abspath(__file__)],
