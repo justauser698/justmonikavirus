@@ -6,7 +6,6 @@ import platform
 
 print("are u ready motherfucker")
 print("press any key to continue")
-input()
 time.sleep(2)
 print("ok lets go")
 
